@@ -11,6 +11,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.Video;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -102,6 +103,9 @@ namespace Qualcomm.Snapdragon.Spaces.Samples
 
         [Space(20)]
         [SerializeField] private Transform _target;
+        [SerializeField] private VideoPlayer _video;
+        [SerializeField] private GameObject _tapToPlaceText;
+
         public void InstantiateGizmos()
         {
             var targetPosition = _indicatorGizmo.transform.position;
@@ -134,6 +138,12 @@ namespace Qualcomm.Snapdragon.Spaces.Samples
             
             _target.transform.position = sessionGizmo.transform.position;
             _target.transform.rotation = sessionGizmo.transform.rotation;
+            _tapToPlaceText.SetActive(false);
+            
+            if (_video.isPaused)
+            {
+                _video.Play();
+            }
         }
 
         public void LoadAllSavedAnchors()

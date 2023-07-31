@@ -48,7 +48,7 @@ public class BeemQrCodeReader : MonoBehaviour
                     }
                         
                     _decoding = true;
-                    _text.text = data.Text;
+                    _text.text = data.Text + "Loading video scene...";
                     
                     PlayerPrefs.SetString("VideoName", data.Text);
                     SceneManager.LoadScene("Anchor Sample");
