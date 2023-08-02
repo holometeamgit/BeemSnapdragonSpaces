@@ -1419,7 +1419,7 @@ Transform:
   m_GameObject: {fileID: 1064728078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -100, y: -100, z: -100}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1977842562}
@@ -1806,11 +1806,9 @@ MonoBehaviour:
   _clips:
   - {fileID: 32900000, guid: 2aad5e9f62e794a34864bd3fc08f71d0, type: 3}
   - {fileID: 32900000, guid: 399f879703d464bb9b51a279a6e4234e, type: 3}
-  - {fileID: 32900000, guid: e5b83df8fab574d99935071ef9798ca8, type: 3}
   keys:
   - Jan
   - JohnSaw
-  - KarenStrutt
 --- !u!1 &1977842558
 GameObject:
   m_ObjectHideFlags: 0
