@@ -982,11 +982,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 880
+      value: 489
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -500
+      value: -606
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3194,7 +3194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &962585301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3455,7 +3455,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064728078}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3641,11 +3641,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 880
+      value: 488.99997
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -340
+      value: -446
       objectReference: {fileID: 0}
     - target: {fileID: 224436646642840784, guid: 75602b458bb564026b4056c133763f2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8570,7 +8570,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 775067880, guid: 711a6b497463aaa4d84dc3faf8ea732a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51a9430b5975c074986337dfc49f530f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -9891,10 +9891,10 @@ RectTransform:
   m_Father: {fileID: 4748313784416245035}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 90, y: 90}
+  m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4880209941137853623
 MonoBehaviour:
@@ -10458,17 +10458,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 404197905972803702}
-        m_TargetAssemblyTypeName: Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController,
-          Assembly-CSharp
-        m_MethodName: SwitchToScene
-        m_Mode: 5
+      - m_Target: {fileID: 1946092207}
+        m_TargetAssemblyTypeName: Qualcomm.Snapdragon.Spaces.Samples.SampleController,
+          Snapdragon.Spaces.Runtime
+        m_MethodName: Quit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Camera Frame Access Sample
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &5688188551460378406

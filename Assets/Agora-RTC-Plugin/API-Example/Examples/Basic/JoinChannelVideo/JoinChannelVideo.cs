@@ -256,7 +256,7 @@ public virtual void JoinChannel()
                 else
                 {
                     var scale = height / (float)width;
-                    videoSurface.transform.localScale = new Vector3(-10, 10, 10 * scale);
+                    videoSurface.transform.localScale = new Vector3(-8, -8 * scale, 1);
                     videoSurface.transform.localPosition = new Vector3(0.0f, 4.0f, 0.0f);
 
                 }
@@ -298,7 +298,7 @@ public virtual void JoinChannel()
                 go.transform.parent = parent;
             }
 
-            go.transform.localEulerAngles = new Vector3(-90.0f, 0.0f, 0.0f);
+            go.transform.localEulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
             go.transform.localPosition = Vector3.zero;
             // go.transform.localScale = new Vector3(0.25f, 0.5f, 0.5f);
 
