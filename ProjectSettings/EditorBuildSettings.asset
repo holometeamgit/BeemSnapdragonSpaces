@@ -5,12 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Beem/Scenes/BasicVideoCallSceneBroadcast.unity
-    guid: 09e3225a5a8744c5696c31b5e71b5b89
+  - enabled: 1
+    path: Assets/Beem/Scenes/Main Menu Beem.unity
+    guid: a23f61fed66ec4a98aea818e8109512a
   - enabled: 1
     path: Assets/Beem/Scenes/Anchor Sample Beem Broadcast.unity
     guid: 5db426f55fb2642a6885b0f819caf384
+  - enabled: 1
+    path: Assets/Samples/Snapdragon Spaces/0.14.0/Core Samples/Scenes/Camera Frame
+      Access Sample/Camera Frame Access Sample.unity
+    guid: 7baa3e9f6af898949bb40acf3ab781df
+  - enabled: 1
+    path: Assets/Samples/Snapdragon Spaces/0.14.0/Core Samples/Scenes/Anchor Sample/Anchor
+      Sample.unity
+    guid: a6e56af4472621b45b91380052443a24
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fe066fb6f480469f8946c634896dbb5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6b23bb419f49c4997bcc2adcf860f974, type: 2}
